@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4E6137D1652484D00BEDFFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E6137C1652484D00BEDFFD /* UIKit.framework */; };
+		E4E6137F1652484D00BEDFFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E6137E1652484D00BEDFFD /* Foundation.framework */; };
+		E4E613811652484D00BEDFFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E613801652484D00BEDFFD /* CoreGraphics.framework */; };
+		E4E613871652484D00BEDFFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4E613851652484D00BEDFFD /* InfoPlist.strings */; };
+		E4E613891652484D00BEDFFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E613881652484D00BEDFFD /* main.m */; };
+		E4E6138D1652484D00BEDFFD /* RealStateAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E6138C1652484D00BEDFFD /* RealStateAppDelegate.m */; };
+		E4E613901652484D00BEDFFD /* RealStateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E6138F1652484D00BEDFFD /* RealStateViewController.m */; };
+		E4E613931652484D00BEDFFD /* RealStateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4E613911652484D00BEDFFD /* RealStateViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E4E613781652484D00BEDFFD /* RealState.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealState.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E6137C1652484D00BEDFFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E4E6137E1652484D00BEDFFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E4E613801652484D00BEDFFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E4E613841652484D00BEDFFD /* RealState-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RealState-Info.plist"; sourceTree = "<group>"; };
+		E4E613861652484D00BEDFFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4E613881652484D00BEDFFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4E6138A1652484D00BEDFFD /* RealState-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RealState-Prefix.pch"; sourceTree = "<group>"; };
+		E4E6138B1652484D00BEDFFD /* RealStateAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealStateAppDelegate.h; sourceTree = "<group>"; };
+		E4E6138C1652484D00BEDFFD /* RealStateAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealStateAppDelegate.m; sourceTree = "<group>"; };
+		E4E6138E1652484D00BEDFFD /* RealStateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealStateViewController.h; sourceTree = "<group>"; };
+		E4E6138F1652484D00BEDFFD /* RealStateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealStateViewController.m; sourceTree = "<group>"; };
+		E4E613921652484D00BEDFFD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RealStateViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4E613751652484D00BEDFFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E6137D1652484D00BEDFFD /* UIKit.framework in Frameworks */,
+				E4E6137F1652484D00BEDFFD /* Foundation.framework in Frameworks */,
+				E4E613811652484D00BEDFFD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4E6136D1652484D00BEDFFD = {
+			isa = PBXGroup;
+			children = (
+				E4E613821652484D00BEDFFD /* RealState */,
+				E4E6137B1652484D00BEDFFD /* Frameworks */,
+				E4E613791652484D00BEDFFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4E613791652484D00BEDFFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4E613781652484D00BEDFFD /* RealState.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4E6137B1652484D00BEDFFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4E6137C1652484D00BEDFFD /* UIKit.framework */,
+				E4E6137E1652484D00BEDFFD /* Foundation.framework */,
+				E4E613801652484D00BEDFFD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4E613821652484D00BEDFFD /* RealState */ = {
+			isa = PBXGroup;
+			children = (
+				E4E6138B1652484D00BEDFFD /* RealStateAppDelegate.h */,
+				E4E6138C1652484D00BEDFFD /* RealStateAppDelegate.m */,
+				E4E6138E1652484D00BEDFFD /* RealStateViewController.h */,
+				E4E6138F1652484D00BEDFFD /* RealStateViewController.m */,
+				E4E613911652484D00BEDFFD /* RealStateViewController.xib */,
+				E4E613831652484D00BEDFFD /* Supporting Files */,
+			);
+			path = RealState;
+			sourceTree = "<group>";
+		};
+		E4E613831652484D00BEDFFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4E613841652484D00BEDFFD /* RealState-Info.plist */,
+				E4E613851652484D00BEDFFD /* InfoPlist.strings */,
+				E4E613881652484D00BEDFFD /* main.m */,
+				E4E6138A1652484D00BEDFFD /* RealState-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4E613771652484D00BEDFFD /* RealState */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4E613961652484D00BEDFFD /* Build configuration list for PBXNativeTarget "RealState" */;
+			buildPhases = (
+				E4E613741652484D00BEDFFD /* Sources */,
+				E4E613751652484D00BEDFFD /* Frameworks */,
+				E4E613761652484D00BEDFFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealState;
+			productName = RealState;
+			productReference = E4E613781652484D00BEDFFD /* RealState.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4E6136F1652484D00BEDFFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RealState;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Vmoksha;
+			};
+			buildConfigurationList = E4E613721652484D00BEDFFD /* Build configuration list for PBXProject "RealState" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E4E6136D1652484D00BEDFFD;
+			productRefGroup = E4E613791652484D00BEDFFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4E613771652484D00BEDFFD /* RealState */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4E613761652484D00BEDFFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E613871652484D00BEDFFD /* InfoPlist.strings in Resources */,
+				E4E613931652484D00BEDFFD /* RealStateViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4E613741652484D00BEDFFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E613891652484D00BEDFFD /* main.m in Sources */,
+				E4E6138D1652484D00BEDFFD /* RealStateAppDelegate.m in Sources */,
+				E4E613901652484D00BEDFFD /* RealStateViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4E613851652484D00BEDFFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4E613861652484D00BEDFFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E4E613911652484D00BEDFFD /* RealStateViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4E613921652484D00BEDFFD /* en */,
+			);
+			name = RealStateViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4E613941652484D00BEDFFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E4E613951652484D00BEDFFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4E613971652484D00BEDFFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealState/RealState-Prefix.pch";
+				INFOPLIST_FILE = "RealState/RealState-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4E613981652484D00BEDFFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealState/RealState-Prefix.pch";
+				INFOPLIST_FILE = "RealState/RealState-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4E613721652484D00BEDFFD /* Build configuration list for PBXProject "RealState" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E613941652484D00BEDFFD /* Debug */,
+				E4E613951652484D00BEDFFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4E613961652484D00BEDFFD /* Build configuration list for PBXNativeTarget "RealState" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E613971652484D00BEDFFD /* Debug */,
+				E4E613981652484D00BEDFFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4E6136F1652484D00BEDFFD /* Project object */;
+}
