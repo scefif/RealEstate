@@ -11,6 +11,11 @@
 
 @interface listViewController : STableViewController{
     NSMutableArray *items;
+     NSMutableArray *ResultArray;
+    UIActivityIndicatorView *activity;
+    BOOL firstLoadbool;
+    BOOL refreshBool1;
+    BOOL loadMoreBool;
     
 }
 @end

@@ -10,4 +10,11 @@
 
 @interface RealStateViewController : UIViewController
 
+-(IBAction)loginView:(id)sender;
+-(IBAction)featuredView:(id)sender;
+-(IBAction)searchView:(id)sender;
+-(IBAction)nearmeView:(id)sender;
+-(IBAction)favouriteView:(id)sender;
+-(IBAction)savedSrchView:(id)sender;
+
 @end

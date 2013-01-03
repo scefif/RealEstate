@@ -55,7 +55,7 @@
   [super viewDidLoad];
   
   self.tableView = [[UITableView alloc] init];
-    tableView.backgroundColor = [UIColor clearColor]; //[UIColor colorWithPatternImage:[UIImage imageNamed:@"woodenBackground.png"]];
+    tableView.backgroundColor = [UIColor scrollViewTexturedBackgroundColor]; //[UIColor colorWithPatternImage:[UIImage imageNamed:@"woodenBackground.png"]];
     tableView.frame = CGRectMake(0, 40, 320, 420);
     
     //self.view.bounds;
@@ -95,7 +95,7 @@
   
   if (aView) {
     ///headerView = [aView retain];
-    
+      headerView = aView;
     CGRect f = headerView.frame;
     headerView.frame = CGRectMake(f.origin.x, 0 - f.size.height, f.size.width, f.size.height);
     headerViewFrame = headerView.frame;

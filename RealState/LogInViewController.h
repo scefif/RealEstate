@@ -8,6 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LogInViewController : UIViewController
+@interface LogInViewController : UIViewController{
+    
+    IBOutlet UITextField *text1;
+    IBOutlet UIScrollView *scoll;
+    IBOutlet UITextField *EmailField;
+    IBOutlet UITextField *PasswordField;
+    IBOutlet UIButton *signBtn;
+    IBOutlet UIButton *createAccBtn;
+}
+
+-(IBAction)createaccount:(id)sender;
+-(IBAction)forgotPassword:(id)sender;
+-(IBAction)login:(id)sender;
+-(IBAction)cancel:(id)sender;
 
 @end

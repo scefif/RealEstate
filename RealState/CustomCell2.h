@@ -8,23 +8,25 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CustomCell : UITableViewCell{
+@interface CustomCell2 : UITableViewCell{
     
      IBOutlet UIImageView *mainImg;
-     IBOutlet UILabel *labl1;
-     IBOutlet UILabel *labl2;
-     IBOutlet UILabel *labl3;
-     IBOutlet UILabel *labl4;
-     IBOutlet UILabel *labl5;
-     IBOutlet UILabel *labl6;
+     IBOutlet UILabel *Addresslabl;
+     IBOutlet UILabel *Pricelabl;
+     IBOutlet UILabel *Bedroomlabl;
+     IBOutlet UILabel *bathroomlabl;
+     IBOutlet UILabel *parkinglabl;
+     IBOutlet UILabel *typelabl;
+    IBOutlet UILabel *discriptionlabl;
     
 }
 @property (nonatomic,retain)IBOutlet UIImageView *mainImg;
-@property (nonatomic,retain)IBOutlet UILabel *labl1;
-@property (nonatomic,retain)IBOutlet UILabel *labl2;
-@property (nonatomic,retain)IBOutlet UILabel *labl3;
-@property (nonatomic,retain)IBOutlet UILabel *labl4;
-@property (nonatomic,retain)IBOutlet UILabel *labl5;
-@property (nonatomic,retain)IBOutlet UILabel *labl6;
+@property (nonatomic,retain)IBOutlet UILabel *Addresslabl;
+@property (nonatomic,retain)IBOutlet UILabel *Pricelabl;
+@property (nonatomic,retain)IBOutlet UILabel *Bedroomlabl;
+@property (nonatomic,retain)IBOutlet UILabel *bathroomlabl;
+@property (nonatomic,retain)IBOutlet UILabel *parkinglabl;
+@property (nonatomic,retain)IBOutlet UILabel *typelabl;
+@property (nonatomic,retain)IBOutlet UILabel *discriptionlabl;
 
 @end

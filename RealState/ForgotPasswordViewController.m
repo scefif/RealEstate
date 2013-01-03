@@ -26,6 +26,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.navigationController setNavigationBarHidden:NO];
+    [self.navigationController.navigationBar setBarStyle:UIBarStyleBlackTranslucent];
     // Do any additional setup after loading the view from its nib.
 }
 

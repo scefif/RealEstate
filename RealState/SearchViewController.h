@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SearchViewController : UIViewController
+@interface SearchViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>{
+    
+    IBOutlet UITableView *dataTable;
+}
+@property(nonatomic,retain)IBOutlet UITableView *dataTable;
 
 @end

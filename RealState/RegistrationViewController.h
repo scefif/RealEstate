@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RegistrationViewController : UIViewController
+@interface RegistrationViewController : UIViewController{
+    CGFloat animatedDistance;
+}
+
+
+-(IBAction)cancel:(id)sender;
+-(IBAction)registr:(id)sender;
 
 @end

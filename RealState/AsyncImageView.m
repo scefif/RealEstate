@@ -50,10 +50,10 @@ static ImageCache *imageCache = nil;
 -(void)loadImageFromURL:(NSURL*)url {
 	//self.autoresizingMask=UIViewAutoresizingFlexibleHeight;
 	if (!width) {
-		width=50;
+		width=130;
 	}
 	if (!height) {
-		height=70;
+		height=100;
 	}
 	self.backgroundColor=[UIColor clearColor];
     if (connection != nil) {

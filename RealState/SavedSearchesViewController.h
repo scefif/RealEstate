@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SavedSearchesViewController : UIViewController
+@interface SavedSearchesViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>{
+    
+    IBOutlet UITableView *dataTable;
+}
 
 @end

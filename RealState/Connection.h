@@ -10,7 +10,8 @@
 #import "ConnectionDelegate.h"
 
 @interface Connection : NSObject <ConnectionDelegate>{
-	
+    
+	uint _offset;
  	id delegate;                    // set the delegate for the Connection Delegate
  	NSMutableArray *resultArray; 	// Return the results from the response
  	NSMutableData *receiveData;     // Get the data from the server response

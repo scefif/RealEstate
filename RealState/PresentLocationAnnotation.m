@@ -20,11 +20,7 @@
 	return self;
 }
 
-- (void)dealloc
-{
-    [image release];
-    [super dealloc];
-}
+ 
 
 - (NSString *)title
 {

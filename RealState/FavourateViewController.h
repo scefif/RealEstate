@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FavourateViewController : UIViewController
+@interface FavourateViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>{
+    
+    IBOutlet UITableView *dataTable;
+}
 
 @end

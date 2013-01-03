@@ -6,14 +6,14 @@
 //  Copyright (c) 2012 Vmoksha. All rights reserved.
 //
 
-#import "CustomCell.h"
+#import "CustomCell2.h"
 
-@interface CustomCell ()
+@interface CustomCell2 ()
 
 @end
 
-@implementation CustomCell
-@synthesize mainImg,labl1,labl2,labl3,labl4,labl5,labl6;
+@implementation CustomCell2
+@synthesize mainImg,Addresslabl,Pricelabl,Bedroomlabl,bathroomlabl,parkinglabl,typelabl,discriptionlabl;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
